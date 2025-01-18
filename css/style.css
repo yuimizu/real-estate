@@ -1,0 +1,353 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 300;
+    color: #333333;
+    letter-spacing: 0.05em;
+    line-height: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: #333333;
+}
+
+.main-v {
+    background-image: url(../img/main-v.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;  
+}
+
+.main-v::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(145deg, transparent 35%, black 35%, black 65%, transparent 65%);
+    opacity: 0.9;
+    pointer-events: none;
+}
+
+header {
+    height: 90px;
+    justify-content: space-between;
+
+}
+
+.header-logo {
+    position: absolute;
+    top: 15px;
+    width: 204px;
+    height: auto;
+    left: 50px;
+}
+
+.header-utility {
+    width: 500px;
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+.header-utility-tel {
+    color: #ffffff;
+    text-align: left;
+    margin-right: 30px;
+}
+
+.header-utility-tel-1 {
+    padding-top: 10px;
+}
+
+.en {
+    font-family: "EB Garamond", serif;
+    font-style: italic;
+}
+
+.serif {
+    font-family: "Noto Serif JP", serif;
+}
+
+.header-utility-tel-1-1 {
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-right: 10px;
+    letter-spacing: 0.05em;
+}
+
+.header-utility-tel-1-2 {
+    font-size: 2.5rem;
+    letter-spacing: 0.075em;
+}
+
+.header-utility-envelope {
+    margin-top: 8px;
+    line-height: 32px;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+.main-v-read {
+    width: 920px;
+    height: 330px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -460px;
+    margin-top: -165px;
+    text-align: center;
+    z-index: 10;
+}
+
+.main-v-read-logo {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.main-v-read-ttle {
+    color: #B8903C;
+    font-size: 9rem;
+    font-family: YuGothic, "Yu Gothic Medium", "Yu Gothic", sans-serif;
+    letter-spacing: 0.125em;
+    padding: 50px 0 25px;
+}
+
+.home-news{
+    background: #F9F4E8;
+    padding-bottom: 80px;
+}
+
+.contents {
+    max-width: 980px;
+    margin: 0 auto; 
+    position: relative; 
+}
+
+.nav-tabs{
+    width: 100%;
+    height: 112px;
+    position: absolute;
+    top: -96px;
+    left: 0;
+}
+
+.nav-link {
+    height: 112px;
+    background: #890F0F;
+    margin-top: -16px;
+    padding-top: 16px;
+}
+
+.nav-link.active{
+    background: #F9F4E8;
+}
+
+.tab-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 35px 0 35px;
+}
+
+.tab_label-inner-en {
+    display: block;
+    font-size: 1.4rem;
+    padding-bottom: 1em;
+}
+
+.tab_label-inner-ja {
+    display: block;
+    font-size: 1.8rem;
+}
+
+.tab-content dt {
+    width: 10em;
+    font-size: 1.3rem;
+    position: relative;
+    float: left;
+    padding: 15px 0 15px 10px;
+}
+
+.tab-content dt::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -2px;
+    background: #B8903C
+}
+
+.tab-content dd {
+    width: 100%;
+    padding: 0 0 0 10em;
+    font-size: 1.6rem;
+    border-bottom: 1px dotted #979797;
+}
+
+.tab-content dd a {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 15px 0;
+}
+
+.home-btn {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.arrow-gold {
+    color: #B8903C;
+}
+
+.arrow {
+    font-size: 1.4rem;
+}
+
+.home-ban img{
+    width: 100%;
+    height: 250px;
+}
+
+.home-mini_ban{
+    padding: 50px 0 20px;
+    width: 100%;
+    text-align: center;
+    background-size: 7px 7px;
+    background-image: linear-gradient(-45deg, #fff, #fff 48.5%, #dddddd 49.5%, #dddddd 50.5%, #fff 51.5%, #fff);
+}
+
+.home-mini_ban img{
+    width: 250px;
+    height: 75px;
+}
+
+.home-business{
+    background-image: url(../img/business.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.area_hover {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 80px 0 60px;
+    color: #ffffff;
+}
+
+.ttl-en {
+    font-size: 2rem;
+    letter-spacing: 0.25em;
+}
+
+.ttl-ja {
+    font-size: 3rem;
+    display: block;
+    padding-top: 30px;
+    letter-spacing: 0.25em;
+}
+
+.home-achievement{
+    background-image: url(../img/achievement.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.home-owners{
+    background-image: url(../img/owners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: 50% 50%;
+    opacity: 0.8;
+}
+
+.home-contact {
+    width: 100%;
+    background: #B8903C;
+}
+
+.read {
+    font-size: 2rem;
+    line-height: 2.1;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background: #000000;
+    padding: 60px 0;
+}
+
+.footer-sns {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.footer-sns-icon {
+    margin: 0 12px;
+    color: #fff;
+}
+
+.footer-logo {
+    width: 58px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.footer .header-utility-tel-1 {
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.footer-sub {
+    font-size: 1.3rem;
+}
+
+.footer-sub-txt {
+    color: #ffffff;
+    display: inline-block;
+    margin: 0 14px 40px;
+}
+
+.footer-copy {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #979797;
+}
+
+
+
