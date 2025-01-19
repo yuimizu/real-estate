@@ -276,6 +276,62 @@ header {
     letter-spacing: 0.25em;
 }
 
+.home-business-fig {
+    height: 260px;
+    margin: 25px auto 20px;
+}
+
+.circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.circle.left {
+    left: 25%;
+    z-index: 2;
+}
+
+.circle.center {
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    background-color: #ffffff80;
+}
+
+.circle.right {
+    right: 25%;
+    z-index: 2;
+}
+
+.circle-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.circle-content h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.circle-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.bi-arrow-right-circle {
+    font-size: 30px;
+}
+
 .home-achievement{
     background-image: url(../img/achievement.jpg);
     background-repeat: no-repeat;
@@ -284,18 +340,30 @@ header {
     opacity: 0.8;
 }
 
+.home-achievement .ttl {
+    margin-bottom: 50px;
+}
+
 .home-owners{
-    background-image: url(../img/owners.jpg);
+    background-image: url(../img/owners.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    background-position: 50% 50%;
+    background-position: 50% 100%;
     opacity: 0.8;
+}
+
+.home-owners .ttl {
+    margin-bottom: 50px;
 }
 
 .home-contact {
     width: 100%;
     background: #B8903C;
+}
+
+.home-contact .area_hover {
+    padding: 30px 0;
 }
 
 .read {
@@ -315,6 +383,7 @@ footer {
     max-width: 500px;
     margin: 0 auto;
     padding-bottom: 50px;
+    font-size: 30px;
 }
 
 .footer-sns-icon {
