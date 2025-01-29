@@ -48,7 +48,7 @@ a{
 header {
     height: 90px;
     justify-content: space-between;
-
+    background: #000000;
 }
 
 .header-logo {

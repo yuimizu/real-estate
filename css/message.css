@@ -1,0 +1,34 @@
+.second-ttl {
+    background-color: black;
+    opacity: 0.8;
+    height: 300px;
+}
+
+.ttl-white {
+    color: #ffffff;
+}
+
+.ttl {
+    padding-top: 90px;
+    text-align: center;
+}
+
+.message-inner {
+    padding-top: 77px;
+}
+
+.message-column-ttl span {
+    display: inline-block;
+    font-size: 3.4rem;
+    font-weight: 400;
+    padding-bottom: 40px;
+    font-family: "Noto Serif JP", serif;
+}
+
+.message-inner-main {
+    width: 826px;
+    height: 700px;
+    margin: 77px auto 0;
+    padding: 370px 77px 77px;
+    background: #F9F4E8;
+}
